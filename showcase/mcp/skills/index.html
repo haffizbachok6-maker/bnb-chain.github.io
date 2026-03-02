@@ -29,7 +29,7 @@
     
     
     
-        <title>OpenClaw Skills</title>
+        <title>BNB Chain Skills</title>
     
 
     
@@ -113,7 +113,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#openclaw-skills" class="md-skip">
+        <a href="#bnb-chain-skills" class="md-skip">
           Skip to content
         </a>
       
@@ -1041,10 +1041,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-agent-prompt" class="md-nav__link">
+  <a href="#1-connect-to-bnb-chain-mcp" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Agent Prompt
+        1. Connect to BNB Chain MCP
       
     </span>
   </a>
@@ -1056,6 +1056,28 @@
     <span class="md-ellipsis">
       
         2. Agent registration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-learn-the-skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Learn the skill
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
       
     </span>
   </a>
@@ -1866,10 +1888,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-agent-prompt" class="md-nav__link">
+  <a href="#1-connect-to-bnb-chain-mcp" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Agent Prompt
+        1. Connect to BNB Chain MCP
       
     </span>
   </a>
@@ -1881,6 +1903,28 @@
     <span class="md-ellipsis">
       
         2. Agent registration
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-learn-the-skill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Learn the skill
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        References
       
     </span>
   </a>
@@ -1986,25 +2030,33 @@
   
 
 
-<div><h1 id="openclaw-skills">OpenClaw Skills<a class="headerlink" href="#openclaw-skills" title="Link to this section">¶</a></h1>
-<p>This page is for <strong>AI agents</strong> (e.g. OpenClaw). It contains the agent prompt, available BNB Chain skills, and where to check agent registration.</p>
+<div><h1 id="bnb-chain-skills">BNB Chain Skills<a class="headerlink" href="#bnb-chain-skills" title="Link to this section">¶</a></h1>
+<p>This page is for <strong>AI agents</strong> that integrate with BNB Chain. It covers how to connect to the BNB Chain MCP, install the skill, and where to check agent registration.</p>
+<p><strong>Skills repository:</strong> <a href="https://github.com/bnb-chain/bnbchain-skills">github.com/bnb-chain/bnbchain-skills</a></p>
 <hr>
-<h2 id="1-agent-prompt">1. Agent Prompt<a class="headerlink" href="#1-agent-prompt" title="Link to this section">¶</a></h2>
-<p><strong>I’m a human</strong></p>
+<h2 id="1-connect-to-bnb-chain-mcp">1. Connect to BNB Chain MCP<a class="headerlink" href="#1-connect-to-bnb-chain-mcp" title="Link to this section">¶</a></h2>
 <ul>
-<li><strong>Manual:</strong> Read this skill page and follow the instructions to connect your agent to BNB Chain.</li>
-<li><strong>bnbchain:</strong> <code>npx @bnb-chain/mcp@latest</code></li>
-</ul>
-<p><strong>I’m an agent</strong></p>
-<ul>
-<li><strong>bnbchain:</strong> <code>npx @bnb-chain/mcp@latest</code></li>
-<li><strong>manual:</strong> <code>curl -s https://raw.githubusercontent.com/bnb-chain/bnb-chain.github.io/main/docs/showcase/mcp/skills.md</code></li>
+<li><strong>Run the MCP server:</strong> <code>npx @bnb-chain/mcp@latest</code></li>
+<li><strong>Fetch this skill page (optional):</strong> <code>curl -s https://raw.githubusercontent.com/bnb-chain/bnb-chain.github.io/main/docs/showcase/mcp/skills.md</code></li>
 </ul>
 <hr>
 <h2 id="2-agent-registration">2. Agent registration<a class="headerlink" href="#2-agent-registration" title="Link to this section">¶</a></h2>
 <ul>
 <li><strong>Mainnet:</strong> Check agent registration and status at <strong><a href="https://www.8004scan.io/">https://www.8004scan.io/</a></strong></li>
-<li><strong>Testnet:</strong> Agents should inform their owners to visit <strong><a href="https://testnet.8004scan.io/">https://testnet.8004scan.io/</a></strong> to see their registration</li>
+<li><strong>Testnet:</strong> Check registration at <strong><a href="https://testnet.8004scan.io/">https://testnet.8004scan.io/</a></strong></li>
+</ul>
+<hr>
+<h2 id="3-learn-the-skill">3. Learn the skill<a class="headerlink" href="#3-learn-the-skill" title="Link to this section">¶</a></h2>
+<p>Install the BNB Chain MCP skill so your agent can use it (e.g. in Cursor or Claude):</p>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>bnb-chain/bnbchain-skills
+</code></pre></div>
+<p>Install globally (available across all projects):</p>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>bnb-chain/bnbchain-skills<span class="w"> </span>-g
+</code></pre></div>
+<hr>
+<h2 id="references">References<a class="headerlink" href="#references" title="Link to this section">¶</a></h2>
+<ul>
+<li><strong>BNB Chain Skills (GitHub):</strong> <a href="https://github.com/bnb-chain/bnbchain-skills">https://github.com/bnb-chain/bnbchain-skills</a></li>
 </ul></div>
 
 
