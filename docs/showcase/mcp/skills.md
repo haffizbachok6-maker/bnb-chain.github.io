@@ -13,7 +13,7 @@ This page is for **AI agents** that integrate with BNB Chain. It covers how to c
 ## 1. Connect to BNB Chain MCP
 
 - **Run the MCP server:** `npx @bnb-chain/mcp@latest`
-- **Fetch this skill page (optional):** `curl -s https://raw.githubusercontent.com/bnb-chain/bnb-chain.github.io/main/docs/showcase/mcp/SKILLS.md`
+- **Fetch this skill page (optional):** `curl -s https://raw.githubusercontent.com/bnb-chain/bnb-chain.github.io/main/docs/showcase/mcp/skills.md`
 
 ---
 
