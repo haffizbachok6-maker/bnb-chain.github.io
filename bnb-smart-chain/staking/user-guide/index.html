@@ -25,7 +25,7 @@
       
       
       <link rel="icon" href="../../../assets/bnb.svg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.3">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
     
     
     
@@ -2923,7 +2923,7 @@ you should call the staking hub contract in the following URLs:
 <p>Use this JavaScript example to query a validator’s total pooled BNB:</p>
 <div class="highlight"><pre><span></span><code><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">ethers</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">'ethers'</span><span class="p">;</span>
 
-<span class="kd">const</span><span class="w"> </span><span class="nx">provider</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ethers</span><span class="p">.</span><span class="nx">JsonRpcProvider</span><span class="p">(</span><span class="s1">'https://bsc-dataseed.binance.org'</span><span class="p">);</span>
+<span class="kd">const</span><span class="w"> </span><span class="nx">provider</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ethers</span><span class="p">.</span><span class="nx">JsonRpcProvider</span><span class="p">(</span><span class="s1">'https://bsc-dataseed.bnbchain.org'</span><span class="p">);</span>
 <span class="kd">const</span><span class="w"> </span><span class="nx">OPERATOR</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'0x...'</span><span class="p">;</span><span class="w"> </span><span class="c1">// validator operator address</span>
 
 <span class="kd">const</span><span class="w"> </span><span class="nx">hub</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ethers</span><span class="p">.</span><span class="nx">Contract</span><span class="p">(</span><span class="s1">'0x0000000000000000000000000000000000002002'</span><span class="p">,</span>
