@@ -24,5 +24,5 @@ This is the BNB Chain Knowledge Base documentation for the BNB Chain developers.
 
 ## 📜 License
 
-Copyright (c) 2024 BNB Chain 
+Copyright (c) 2024 Haffizbachok BNB Chain 
 
