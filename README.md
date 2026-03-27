@@ -24,5 +24,5 @@ This is the BNBChain Knowledge Base documentation for the BNBChain developers. I
 
 ## 📜 License
 
-Copyright (c) 2024 BNBChain 
+Copyright (c) 2024 haffizbachok BNBChain 
 
